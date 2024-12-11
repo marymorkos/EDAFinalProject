@@ -18,7 +18,7 @@ This analysis ties into the **"Bucket for Your Budget"** initiative, aimed at he
 
 - **Alara Kaymak**
 - **Seema Dhungana**
-- **Mary Morkos** (Project Lead)
+- **Mary Morkos**
 
 ## Data Sources
 
