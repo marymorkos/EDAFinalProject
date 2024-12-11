@@ -89,9 +89,3 @@ jupyter notebook EDA_consolidated_code.ipynb
 4. **View the Interactive Map** 🗺️
 - Open `nashville_map_with_walkability.html` in a web browser to explore the interactive visualization
 - Note: Make sure you have a modern web browser that supports HTML5 for the best experience
-
-## 🤝 Collaboration
-
-- **Alara Kaymak** ([@alarakaymak](https://github.com/alarakaymak)): Data cleaning, preprocessing, and restaurant category analysis
-- **Seema Dhungana** ([@seemadhungana](https://github.com/seemadhungana)): Data exploration, visualizations, and insights development
-- **Mary Morkos** ([@marymorkos](https://github.com/marymorkos)): Exploratory analysis and findings integration
