@@ -1,8 +1,8 @@
-# Nashville Exploratory Data Analysis (EDA)
+# 🏠 Nashville Exploratory Data Analysis (EDA)
 
 This project focuses on the analysis of Airbnb listings and local restaurant data in Nashville, Tennessee. Using data science and exploratory data analysis (EDA) techniques, we aim to uncover insights related to neighborhood trends, affordability, walkability, and the correlation between Airbnb listings and restaurants. This analysis provides actionable insights for both budget-conscious travelers and Airbnb hosts, as well as local stakeholders.
 
-## Project Overview
+## 🎯 Project Overview
 
 In this project, we explore the following:
 
@@ -14,67 +14,84 @@ In this project, we explore the following:
 
 This analysis ties into the **"Bucket for Your Budget"** initiative, aimed at helping travelers make informed decisions based on their budget, preferences, and desired neighborhood characteristics.
 
-## Team Members
+## 👥 Team Members
 
-- **Alara Kaymak**
-- **Seema Dhungana**
-- **Mary Morkos**
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/alarakaymak">
+        <img src="https://github.com/alarakaymak.png" width="100px;" alt=""/>
+        <br />
+        <sub><b>Alara Kaymak</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/seemadhungana">
+        <img src="https://github.com/seemadhungana.png" width="100px;" alt=""/>
+        <br />
+        <sub><b>Seema Dhungana</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/marymorkos">
+        <img src="https://github.com/marymorkos.png" width="100px;" alt=""/>
+        <br />
+        <sub><b>Mary Morkos</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-## Data Sources
-
-1. **Airbnb Listings**: A dataset containing information about Airbnb properties, including room type, price, neighborhood, and reviews.
-2. **Nashville Restaurants**: A dataset containing details about restaurants in Nashville, including categories, ratings, and location.
-3. **Neighborhood Data**: Additional data regarding Nashville's neighborhoods for geographic analysis.
-
-## Project Structure
+## 📁 Repository Structure
 
 ```
-├── README.md
-├── notebooks/
-│   ├── EDA_Analysis.ipynb    # Jupyter notebook with the exploratory data analysis
-├── data/
-│   ├── listings.csv          # Airbnb listings data
-│   ├── nashville_restaurants.csv    # Restaurant data
-├── visuals/
-│   ├── price_distribution.png    # Visualization of price distribution
-│   ├── price_vs_reviews.png      # Scatter plot of price vs reviews
-│   ├── correlation_heatmap.png   # Correlation heatmap
-├── requirements.txt          # List of dependencies for the project
-└── app.py                    # Streamlit app for interactive exploration (if applicable)
+├── EDA_consolidated_code.ipynb    # Main Jupyter notebook containing all analysis
+├── README.md                      # Project documentation
+├── listings.csv                   # Airbnb listings dataset
+├── nashville_map_with_walkability.html    # Interactive map visualization
+├── nashville_restaurants.csv      # Restaurant dataset
+└── neighbourhoods.txt            # Neighborhood information
 ```
 
-## How to Run the Project
+## 📊 Data Sources
 
-### 1. **Clone the Repository**
+1. **Airbnb Listings** (`listings.csv`): Contains detailed information about Airbnb properties, including room type, price, neighborhood, and reviews.
+2. **Nashville Restaurants** (`nashville_restaurants.csv`): Details about restaurants in Nashville, including categories, ratings, and location.
+3. **Neighborhood Data** (`neighbourhoods.txt`): Information about Nashville's neighborhoods for geographic analysis.
+
+## 📈 Analysis and Visualizations
+
+Our analysis is contained in the `EDA_consolidated_code.ipynb` notebook, which includes:
+
+- 💰 Price distribution analysis across Nashville neighborhoods
+- ⭐ Correlation studies between listing prices and reviews
+- 🍽️ Restaurant density analysis
+- 🗺️ Interactive walkability visualization (`nashville_map_with_walkability.html`)
+
+## 🚀 How to Run the Project
+
+1. **Clone the Repository** 📥
 ```bash
-git clone https://github.com/your-username/nashville-eda.git
+git clone https://github.com/marymorkos/nashville-eda.git
 cd nashville-eda
 ```
 
-### 2. **Install Dependencies**
-Make sure you have Python 3.x installed. Then install the necessary dependencies from the requirements.txt file:
+2. **Install Required Dependencies** 🔧
 ```bash
-pip install -r requirements.txt
+pip install jupyter pandas numpy folium seaborn matplotlib
 ```
 
-### 3. **Running the Jupyter Notebook**
-Start the Jupyter Notebook to explore the analysis:
+3. **Open the Jupyter Notebook** 📓
 ```bash
-jupyter notebook notebooks/EDA_Analysis.ipynb
+jupyter notebook EDA_consolidated_code.ipynb
 ```
 
-### 4. **Streamlit App (Optional)**
-If you're running a Streamlit app for the interactive recommendations, use the following command to launch it:
-```bash
-streamlit run app.py
-```
+4. **View the Interactive Map** 🗺️
+- Open `nashville_map_with_walkability.html` in a web browser to explore the interactive visualization
+- Note: Make sure you have a modern web browser that supports HTML5 for the best experience
 
-## Visualizations
+## 🤝 Collaboration
 
-This repository includes the following visualizations:
-
-- Price Distribution Across Neighborhoods: Box plot displaying how prices vary across different neighborhoods in Nashville.
-- Price vs. Number of Reviews: Scatter plot showing the correlation between listing prices and the number of reviews.
-- Correlation Heatmap: Visualizing the relationships between numeric variables such as price, reviews, and others.
-- Restaurant Density by Neighborhood: Bar chart showing the number of restaurants in each neighborhood.
-- Geospatial Visualizations: Folium map showing the locations of Airbnb listings and restaurants in Nashville.
+- **Alara Kaymak** ([@alarakaymak](https://github.com/alarakaymak)): Data cleaning, preprocessing, and restaurant category analysis
+- **Seema Dhungana** ([@seemadhungana](https://github.com/seemadhungana)): Data exploration, visualizations, and insights development
+- **Mary Morkos** ([@marymorkos](https://github.com/marymorkos)): Exploratory analysis and findings integration
