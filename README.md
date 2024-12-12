@@ -48,16 +48,18 @@ This analysis ties into the **"Bucket for Your Budget"** initiative, aimed at he
 ├── EDA_consolidated_code.ipynb    # Main Jupyter notebook containing all analysis
 ├── README.md                      # Project documentation
 ├── listings.csv                   # Airbnb listings dataset
-├── nashville_map_with_walkability.html    # Interactive map visualization
+├── nashville_businesses.csv    # Yelp Businesses dataset
 ├── nashville_restaurants.csv      # Restaurant dataset
-└── neighbourhoods.txt            # Neighborhood information
+├── nashville_zipcodes.geojson    # Nashville zipcodes info
+└── neighbourhoods.geojson            # Neighborhood information
 ```
 
 ## 📊 Data Sources
 
 1. **Airbnb Listings** (`listings.csv`): Contains detailed information about Airbnb properties, including room type, price, neighborhood, and reviews.
 2. **Nashville Restaurants** (`nashville_restaurants.csv`): Details about restaurants in Nashville, including categories, ratings, and location.
-3. **Neighborhood Data** (`neighbourhoods.txt`): Information about Nashville's neighborhoods for geographic analysis.
+3. **Nashville Businesses** (`nashville_businesses.csv`): Details about businesses in Nashville, including categories, ratings, and location. (Includes restaurants)
+4. **Neighborhood Data** (`neighbourhoods.geojson`): Information about Nashville's neighborhoods for geographic analysis.
 
 ## 📈 Analysis and Visualizations
 
@@ -66,7 +68,6 @@ Our analysis is contained in the `EDA_consolidated_code.ipynb` notebook, which i
 - 💰 Price distribution analysis across Nashville neighborhoods
 - ⭐ Correlation studies between listing prices and reviews
 - 🍽️ Restaurant density analysis
-- 🗺️ Interactive walkability visualization (`nashville_map_with_walkability.html`)
 
 ## 🚀 How to Run the Project
 
@@ -85,7 +86,3 @@ pip install jupyter pandas numpy folium seaborn matplotlib
 ```bash
 jupyter notebook EDA_consolidated_code.ipynb
 ```
-
-4. **View the Interactive Map** 🗺️
-- Open `nashville_map_with_walkability.html` in a web browser to explore the interactive visualization
-- Note: Make sure you have a modern web browser that supports HTML5 for the best experience
