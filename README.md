@@ -1,4 +1,4 @@
-# 🏠 Nashville Tourism Analysis (EDA)
+# 🏠 Nashville Tourism Analysis
 
 This project focuses on the analysis of Airbnb listings and local restaurant data in Nashville, Tennessee. Using data science and exploratory data analysis (EDA) techniques, we aim to uncover insights related to neighborhood trends, affordability, walkability, and the correlation between Airbnb listings and restaurants. This analysis provides actionable insights for both budget-conscious travelers and Airbnb hosts, as well as local stakeholders.
 
